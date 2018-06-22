@@ -12,9 +12,9 @@ strategy_description = 'The strategy will look at people's history and then deci
     
 def move(my_history, their_history, my_score, their_score):
     if (my_history) = '0':
-        return 'c'
-    else:
         return 'b'
+    else:
+        return 'c'
     
     ''' Arguments accepted: my_history, their_history are strings.
     my_score, their_score are ints.
